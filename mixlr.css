@@ -12,6 +12,8 @@ header nav{
 }
 .nav{
     display: none;
+}.nav1{
+    display: none;
 }
 .login{
     margin-top: 10px;
@@ -177,7 +179,156 @@ header button:hover{
     color: #ed1c24;
     cursor: pointer;
 }
-@media (max-width: 768px){
+
+@media (max-width: 426px){
+    .get{
+        width: 100%;
+        justify-items: center;
+    }
+    .get h1{
+        margin-left: 200px;
+        font-size: 50px;
+        width: 500px;
+    }
+    .get h3{
+        margin-left: 200px;
+        font-size: 36px;
+        width: 500px;
+        text-align: center;
+    }
+    .get button{
+        margin-left: 170px;
+    }
+    header nav{
+        display: none;
+    }
+    header button{
+        font-size: 16px;
+    }
+    .nav1{
+        margin-left: 150px;
+        display: block;
+        font-size: 20px;
+        margin-top: 15px;
+        width: 380px;
+    }
+    .nav1 a{
+        text-decoration: none;
+        color: black;
+        margin-right: 25px;
+    }
+    .login{
+        display: block;
+        margin-left: 300px;
+    }
+    .section1{
+        flex-wrap: wrap;
+        padding-right: 30px;
+    }
+    .text h1{
+        width: 590px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .text p{
+        width: 600px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .section1 img{
+        width: 550px;
+        margin-left: 200px;
+    }
+    .section2{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        padding-right: 10px;
+    }
+    .text1 h1{
+        width: 590px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .text1 p{
+        width: 600px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .section2 img{
+        width: 550px;
+    }
+    .text2 h1{
+        width: 590px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .text2 p{        
+        width: 600px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .text3 h1{        
+        width: 590px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .text3 p{        
+        width: 600px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .text4 h1{        
+        width: 590px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .text4 p{
+        width: 600px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .section3{
+        flex-wrap: wrap;
+        padding-right: 20px;
+    }
+    .text5 h3{
+        font-size: 35px;
+        width: 600px;
+    }
+    .text5 p{
+        font-size: 25px;
+        width: 600px;
+    }
+    .section3 img{
+        margin-left: 230px;
+        width: 150px;
+    }
+    .start button{
+        margin-left: 100px;
+    }
+    .p{
+        margin-left: 200px;
+    }
+    .image img{
+        width: 200px;
+        margin-left: 200px;
+    }
+    .blog a{
+        display: block;
+        font-size: 25px;
+        margin-left: 230px;
+        padding-top: 10px;
+        text-align: center;
+        width: 300px;
+    }
+    .blog p{
+        font-size: 25px;
+        margin-top: 30px;
+        margin-left: 250px;
+        width: 500px;
+    }
+}
+@media (width: 768px){
     header nav{
         display: none;
     }
@@ -215,6 +366,117 @@ header button:hover{
         margin-left: 220px;
     }
 }
-@media (max-width: 425px){
-    
+@media (min-width: 320px){
+    header button{
+        height: 100px;
+    }
+    .nav1{
+        margin-left: 100px;
+        display: block;
+        font-size: 25px;
+        margin-top: 30px;
+        width: 450px;
+    }
+    .login{
+        font-size: 25px;
+    }
+    .get h1{
+        font-size: 70px;
+        line-height: 80px;
+        width: 550px;
+        margin-top: 100px;
+        margin-left: 300px;
+    }
+    .get h3{
+        font-size: 45px;
+        width: 550px;
+        margin-left: 300px;
+    }
+    .get button{
+        margin-left: 100px;
+        height: 80px;
+        width: 400px;
+        font-size: 35px;
+        border-radius: 70px;
+    }
+    .section1{
+        margin-left: 140px;
+    }
+    .text h1{
+        width: 500px;
+        margin-left: 35px;
+    }
+    .text p{
+        width: 450px;
+        margin-left: 60px;
+    }
+    .text1 h1{
+        width: 500px;
+        margin-left: 35px;
+    }
+    .text1 p{
+        width: 450px;
+        margin-left: 60px;
+    }
+    .text2 h1{
+        width: 500px;
+        margin-left: 35px;
+    }
+    .text2 p{
+        width: 450px;
+        margin-left: 60px;
+    }
+    .text3 h1{
+        width: 500px;
+        margin-left: 35px;
+    } 
+    .text3 p{
+        width: 450px;
+        margin-left: 60px;
+    }
+    .text4 h1{
+        width: 500px;
+        margin-left: 35px;
+    }
+    .text4 p{
+        width: 450px;
+        margin-left: 60px;
+    }
+    .section3{
+        margin-left: 90px;
+    }
+    .text5 p{
+        width: 450px;
+        margin-left: 90px;
+    }
+    .p{
+        width: 300px;
+        font-size: 50px;
+        margin-left: 320px;
+    }
+    .start{
+        margin-left: 100px;
+        height: 80px;
+        width: 400px;
+        font-size: 35px;
+        border-radius: 70px;
+    }
+    .image img{
+        width: 300px;
+        margin-left: 320px;
+    }
+    .blog a{
+        display: block;
+        font-size: 30px;
+        margin-left: 340px;
+        padding-top: 10px;
+        text-align: center;
+        width: 300px;
+    }
+    .blog p{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-left: 380px;
+        width: 600px;
+    }
 }
